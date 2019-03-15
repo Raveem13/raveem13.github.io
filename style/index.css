@@ -1,0 +1,63 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    overflow: hidden;
+    display: block;
+    background-color: #062843;
+    background-size: cover;
+}
+
+home-page{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#nav_bar{
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    float: left;
+}
+
+nav {
+    position: absolute;
+    top: 40%;
+}
+
+.fas, .fab {
+    color: #0a4575;
+    font-size: 20px;
+}
+
+.fas:hover, .fab:hover {
+    color: #5badf1;
+}
+
+ul{
+    list-style-type: none; 
+}
+.contactbar{
+    position: absolute;
+    bottom: 20px;    
+}
+
+.h{
+    height: 100Vh;
+}
+
+.blue{
+    background-color: #081927;
+    z-index: 1
+}
