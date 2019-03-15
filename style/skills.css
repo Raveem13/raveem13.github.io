@@ -19,33 +19,8 @@ row{
     justify-content: space-between;    
 }
 
-/*
-.blue{
-    background-color: dodgerblue;
-}
-
-.yellow{
-    background-color: yellow;
-}
-
-.crimson{
-    background-color: crimson;
-}
-.green{
-    background-color: forestgreen;
-}
-
-.black{
-    background-color: black;
-}
-
-.red{
-    background-color: darkred;
-}
-*/
-
 .progress{
-    margin: 0 20px 20px 20px;
+    margin: 0px 20px 20px 20px;
 }
 
 @keyframes slideInFromTop {
@@ -101,8 +76,8 @@ ul.skill_list{
     transform-style: preserve-3d;
 }
 
-.skill-box>img{
-    margin: 10px;
+.flip-box-front>img{
+    padding: 20px;
 }
 
 .flip-box:hover .skill-box {
@@ -117,6 +92,7 @@ ul.skill_list{
 }
 
 .flip-box-back {
+    padding-top: 20px;
     background-color: #3385cc;
     color: white;
     transform: rotateY(-180deg);

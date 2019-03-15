@@ -1,13 +1,8 @@
-/*
-.h{
-    height: 100Vh;
-}
-*/
+@import url('https://fonts.googleapis.com/css?family=Coda');
 
 .k{
     height: 60Vh;
 }
-
 
 .g{
     display: flex;
@@ -26,32 +21,43 @@
 
 .blue_faded{
     box-shadow: 0px 0 20px 0px black;
-    background-color: #4892D2;
+    background-color: #0a4575;
     padding: 10 10 10 10;
-    opacity: .5;
-	color:  white;
+    opacity: .8;
+    color:  white;
     animation: 1s ease-out 0s 1 slideInFromRight;
-}
-
-.red{
-    background-color: darkred;
 }
 
 #profile {
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 20%;
 }
 
+.profile_pic {
+  width: 60%;
+  padding: 10px;
+  box-shadow: 0px 0 10px 0px black;
+}
+
 .btn {
-    background-color:#0a4575;
-    border: none;
-    color: white;
-    cursor: pointer;
-  }
+  width: 60%;
+  background-color:#0a4575;
+  border: none;
+  opacity: 0.8;
+  color: rgb(229, 241, 255);
+  cursor: pointer;
+  box-shadow: 0px 0 10px 0px black;
+}
   
 .btn:hover {
-    background-color:#5badf1;
+  background-color:#5badf1;
+}
+
+h1 {
+  font-family: 'Coda', cursive;
+  color: #5badf1;
+  font-weight: bold;
 }
 
 .descrpn {
