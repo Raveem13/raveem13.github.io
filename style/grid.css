@@ -1,0 +1,40 @@
+.h{
+    height: 100Vh;
+    width: 10Vw;
+}
+
+.k{
+    height: 60Vh;
+}
+
+
+.g{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.blue{
+    background-color: dodgerblue;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.crimson{
+    background-color: crimson;
+}
+.green{
+    background-color: forestgreen;
+}
+
+.black{
+    background-color: black;
+}
+
+.red{
+    background-color: darkred;
+}
+
+
