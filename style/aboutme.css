@@ -43,6 +43,16 @@
     left: 20%;
 }
 
+.btn {
+    background-color:#0a4575;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+.btn:hover {
+    background-color:#5badf1;
+}
 
 .descrpn {
     position: absolute;

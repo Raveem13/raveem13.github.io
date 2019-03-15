@@ -57,6 +57,18 @@ ul{
     height: 100Vh;
 }
 
+.g{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.k{
+    height: 40Vh;
+    color: rgb(184, 191, 207);
+    margin-left: 40px;
+}
+
 .blue{
     background-color: #081927;
     z-index: 1
