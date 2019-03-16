@@ -27,7 +27,7 @@
     width: 90%;
     height: 100%;
     min-height: 150px;
-
+    padding: 6px;
 }
 
 @keyframes slideInFromLeft {
@@ -41,4 +41,9 @@
 
 .project-box {
     animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+#vid {
+    height: 180px;
+    width :100%;
 }
