@@ -36,12 +36,12 @@ nav {
     top: 40%;
 }
 
-.fas, .fab {
+.fas, .fab, .far {
     color: #0a4575;
     font-size: 20px;
 }
 
-.fas:hover, .fab:hover {
+.fas:hover, .fab:hover, .far:hover {
     color: #5badf1;
 }
 
