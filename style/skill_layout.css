@@ -1,0 +1,185 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    overflow: hidden; 
+    display: block;
+    background-color: #062843;
+    background-size: cover;
+}
+
+.h{
+    height: 100%;
+    width: 80px;
+    position: absolute;
+}
+
+.g{
+    position: relative;
+    height: 80%;
+    float: right;
+    top: 20%;
+    width: calc(100% - 80px);
+}
+
+.k{
+    left: 1%;
+    position: relative;
+    height: 40%;
+    width: 33%;
+    float: left;
+    color: rgb(184, 191, 207);
+/*    min-width: 200px;*/
+/*    margin-left: 3%;*/
+/*    padding: 2%;*/
+/*
+    padding-left: 5%;
+    padding-top: 5%;
+*/
+}
+
+
+.a {
+    float: left;
+}
+
+nav .nav-sidebar{
+    position: absolute;
+    top: 35%;
+}
+
+.fas, .fab, .far {
+    color: #0a4575;
+    font-size: 20px;
+}
+
+.fas:hover, .fab:hover, .far:hover {
+    color: #5badf1;
+}
+
+ul{
+    list-style-type: none; 
+}
+
+nav .contactbar{
+    position: absolute;
+    bottom: 2%;    
+}
+
+.h{
+    height: 100Vh;
+}
+
+.blue{
+    background-color: #081927;
+    z-index: 1
+}
+
+
+/*MEDIA QUERIES*/
+
+/*Tablets*/
+
+@media screen and (max-width: 960px){
+    .g{
+        position: relative;
+        height: 100%;
+        float: right;
+        top: 4%;
+        width: calc(100% - 80px);
+    }
+    
+    .k{
+        left: 2%;
+        position: relative;
+        height: 33%;
+        width: 48%;
+        float: left;
+        color: rgb(184, 191, 207);
+        min-width: 200px;
+    }
+
+}
+
+/*Small Tablets*/
+
+@media screen and (max-width: 680px){
+    .g{
+        position: relative;
+        height: 100%;
+        float: right;
+        top: 80px;
+        width: 100%;
+    }
+    
+    .k{
+        left: 2%;
+        position: relative;
+        height: 33%;
+        width: 96%;
+        float: left;
+        color: rgb(184, 191, 207);
+        padding: 5%;
+    }
+    
+    body {
+        overflow: scroll; 
+    }
+    
+    .h{
+        width: 100%;
+        position: absolute;
+        overflow: hidden;
+        background: #081927;
+        height: auto;
+    }
+    
+    nav {
+        position: absolute;
+        top: 0%;
+        left: 50px;
+        width: 90%;
+        float: right;
+    }
+    
+    .nav-sidebar {
+        margin-top: 5px;
+        width: 85%;
+        float: right;
+    }
+    
+    .nav-sidebar li {
+        float: left;
+        list-style-type: none;
+/*        margin: 10px 10px;*/
+/*        margin-left: 5px;*/
+        width: 25%;
+        text-align: center;
+    }
+    .burger-nav{
+        float: right;
+    }
+
+}
+
+/*Mobiles*/
+
+@media screen and (max-width: 480px){  
+    .g{
+        top: 80px;
+    }
+    
+    .k{
+        left: 5px;
+        position: relative;
+        height: 33%;
+        width: calc(100% - 5px);
+        float: left;
+        color: rgb(184, 191, 207);
+        padding: 0;
+        padding-top: 10px;
+    }
+}

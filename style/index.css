@@ -1,6 +1,7 @@
 html,body{
     height: 100%;
     width: 100%;
+    margin: 0;
 }
 
 body {
@@ -10,30 +11,20 @@ body {
     background-size: cover;
 }
 
-home-page{
+.h{
     height: 100%;
-    width: 100%;
-    position: relative;
-}
-
-.container-fluid {
-    width: 100%;
-    padding-right: 0px;
-    padding-left: 0px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-#nav_bar{
+    width: 80px;
     position: absolute;
-    width: 100px;
-    height: 100%;
+}
+
+
+.a {
     float: left;
 }
 
-nav {
+nav .nav-sidebar{
     position: absolute;
-    top: 40%;
+    top: 35%;
 }
 
 .fas, .fab, .far {
@@ -48,9 +39,10 @@ nav {
 ul{
     list-style-type: none; 
 }
-.contactbar{
+
+nav .contactbar{
     position: absolute;
-    bottom: 20px;    
+    bottom: 2%;    
 }
 
 .h{
@@ -60,4 +52,65 @@ ul{
 .blue{
     background-color: #081927;
     z-index: 1
+}
+
+
+/*MEDIA QUERIES*/
+
+/*Tablets*/
+
+
+/*Mobiles*/
+
+@media screen and (max-width: 480px){   
+    body {
+        overflow: scroll; 
+    }
+
+    .h{
+        width: 100%;
+        position: absolute;
+        overflow: hidden;
+        background: #081927;
+        height: auto;
+    }
+     
+    .g{
+        position: relative;
+        height: 100%;
+        float: right;
+        top: 50px;
+        width: 100%;
+    }
+    
+    .k{
+        height: 50%;
+        width: 100%;
+    }
+    
+    nav {
+        position: absolute;
+        top: 0%;
+        left: 50px;
+        width: 90%;
+        float: right;
+    }
+    
+    .nav-sidebar {
+        margin-top: 5px;
+        width: 85%;
+        float: right;
+    }
+    
+    .nav-sidebar li {
+        float: left;
+        list-style-type: none;
+/*        margin: 10px 10px;*/
+/*        margin-left: 5px;*/
+        width: 25%;
+        text-align: center;
+    }
+    .burger-nav{
+        float: right;
+    }
 }

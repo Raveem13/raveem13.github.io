@@ -1,13 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Coda');
 
-.k{
-    height: 60Vh;
+.g{
+  position: relative;
+  height: 60%;
+  float: right;
+  top: 20%;
+  width: calc(100% - 80px);
 }
 
-.g{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.k{
+  position: relative;
+  height: 100%;
+  width: 50%;
+  float: left;
+  color: rgb(184, 191, 207);
+/*
+  padding-left: 5%;
+  padding-top: 5%;
+*/
 }
 
 @keyframes slideInFromRight {
@@ -20,6 +30,10 @@
 }
 
 .blue_faded{
+    position: relative;
+    margin: 0 5%;
+    width: 90%;
+    /* height: 100%; */
     box-shadow: 0px 0 20px 0px black;
     background-color: #0a4575;
     padding: 10 10 10 10;
@@ -30,18 +44,19 @@
 
 #profile {
     position: absolute;
-    top: 15%;
-    left: 20%;
+    top: 10%;
+    left: 10%;
 }
 
+
 .profile_pic {
-  width: 60%;
+  width: 180px;
   padding: 10px;
   box-shadow: 0px 0 10px 0px black;
 }
 
 .btn {
-  width: 60%;
+  width: 180px;
   background-color:#0a4575;
   border: none;
   opacity: 0.8;
@@ -61,10 +76,57 @@ h1 {
 }
 
 .descrpn {
-    position: absolute;
-    top: 20%;
-    left: 10%;
-    right: 10%;
     align-content: center;
+    padding: 10px;
 }
 
+/*MEDIA QUERIES*/
+
+/*Tablets*/
+
+@media screen and (max-width: 768px){
+    .g{
+      position: relative;
+      height: 100%;
+      float: right;
+      top: 0;
+      width: calc(100% - 80px);
+      }
+
+    .k{
+        height: 50%;
+        width: 100%;
+      }
+
+    #profile {
+      position: absolute;
+      top: 5%;
+      left: calc(50% - 100px);
+    }
+
+}
+
+/*Mobiles*/
+
+@media screen and (max-width: 480px){   
+  body {
+      overflow: scroll; 
+  }
+  
+  .h{
+      width: 100%;
+      position: absolute;
+      overflow: hidden;
+      background: #081927;
+      height: auto;
+  }
+   
+  .g{
+      position: relative;
+      height: 100%;
+      float: right;
+      top: 50px;
+      width: 100%;
+  }
+  
+}
