@@ -8,11 +8,18 @@
 
 
 .k{
-       /* position: relative; */
-        height: 100%;
-        width: 50%;
-        float: left;
-        color: rgb(184, 191, 207);
+    /* position: relative; */
+    height: 100%;
+    width: 50%;
+    float: left;
+    color: rgb(184, 191, 207);
+}
+
+.wc_msg{
+    position: relative;
+    top:15%;
+    width: 90%;
+    padding-left: 10%;
 }
 
 /*MEDIA QUERIES*/
@@ -33,9 +40,17 @@
     body {
         overflow: scroll; 
     }
-    
+
+    .g{
+        position: relative;
+        height: 100%;
+        float: right;
+        top: 50px;
+        width: 100%;
+    }
+
     .k{
-        height: 50%;
+        height: auto;
         width: 100%;
     }
 }
