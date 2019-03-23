@@ -64,6 +64,10 @@ ul{
     list-style-type: none; 
 }
 
+.burger-nav{
+    visibility: hidden;
+}
+
 nav .contactbar{
     position: absolute;
     bottom: 2%;    
@@ -156,9 +160,14 @@ nav .contactbar{
         list-style-type: none;
 /*        margin: 10px 10px;*/
 /*        margin-left: 5px;*/
-        width: 25%;
+        width: 20%;
         text-align: center;
     }
+
+    .burger-nav{
+        visibility: visible;
+    }
+
     .burger-nav{
         float: right;
     }

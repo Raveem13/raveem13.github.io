@@ -30,6 +30,10 @@
 /*Mobiles*/
 
 @media screen and (max-width: 480px){ 
+    body {
+        overflow: scroll; 
+    }
+    
     .k{
         height: 50%;
         width: 100%;

@@ -67,7 +67,9 @@
 }
 
 @media screen and (max-width: 480px){ 
-    
+    body {
+        overflow: scroll; 
+    }
      
     .g{
         position: relative;
@@ -78,7 +80,7 @@
     }
     
     .k{
-        height: 50%;
+        height: auto;
         width: calc(100% - 5px);
         float: left;
         color: rgb(184, 191, 207);
