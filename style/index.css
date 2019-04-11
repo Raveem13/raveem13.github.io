@@ -121,5 +121,6 @@ nav .contactbar{
 
     .burger-nav{
         float: right;
+        right: 0%;
     }
 }
